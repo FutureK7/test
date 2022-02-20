@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="CSS/style.css">
+    <script src="vue.js" type="text/javascript" charset="utf-8"></script>
+    <title>Document</title>
+</head>
+<body>
+    <div id="root">
+        <div class="page-header-bg-img">
+            <div class="page-header-text">
+                <h1>{{HeaderMassage}}</h1>
+            </div>
+            <div class="page-header-guide">
+                <p>↓</p>
+            </div>
+        </div>
+    </div>
+
+    <script type="text/javascript">
+        Vue.config.productionTip = false
+
+        new Vue({
+            el:'#root',
+            data:{
+                HeaderMassage:'Welcome'
+            }
+        })
+    </script>
+</body>
+</html>

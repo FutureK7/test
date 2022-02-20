@@ -1,0 +1,38 @@
+*{
+    box-sizing: border-box;
+}
+
+.page-header-bg-img{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url(../img/header2.0.jpeg);
+    background-position: center;
+}
+.page-header-text{
+    top: 45%;
+    width: 100%;
+    position: absolute;
+    font-size: 200%;
+    margin: 0;
+}
+.page-header-text h1 {
+    text-align: center;
+    color: #fff;
+    margin: 0;
+}
+.page-header-guide{
+    bottom: 0;
+    width: 100%;
+    position: absolute;
+}
+
+.page-header-guide p{
+    color: #fff;
+    font-size: 300%;
+    text-align: center;
+}
